@@ -1,6 +1,6 @@
 server:
   env_name: ${APP_ENV:sagemaker}
-  port: ${PORT:8001}
+  port: ${PORT:8008}
 
 ui:
   enabled: true

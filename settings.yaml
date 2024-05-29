@@ -3,7 +3,7 @@
 # Syntax in `private_pgt/settings/settings.py`
 server:
   env_name: ${APP_ENV:prod}
-  port: ${PORT:8001}
+  port: ${PORT:8008}
   cors:
     enabled: false
     allow_origins: ["*"]
@@ -72,7 +72,7 @@ huggingface:
   access_token: ${HUGGINGFACE_TOKEN:}
 
 vectorstore:
-  database: qdrant
+  database: chroma
 
 nodestore:
   database: simple
